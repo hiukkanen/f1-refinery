@@ -5,8 +5,6 @@ source 'http://rubygems.org'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -36,6 +34,7 @@ gem 'sqlite3'
 gem 'refinerycms',              '~> 1.0.3'
 
 group :development, :test do
+  gem 'sqlite3'
   # To use refinerycms-testing, uncomment it (if it's commented out) and run 'bundle install'
   # Then, run 'rails generate refinerycms_testing' which will copy its support files.
   # Finally, run 'rake' to run the tests.
@@ -57,3 +56,8 @@ end
 gem 'refinerycms-i18n',         '~> 1.0.0'
 
 # END USER DEFINED
+gem 'rake',  '0.8.7'
+gem 'rails', '3.0.9'
+gem 'mysql'
+gem 'fcgi'
+
