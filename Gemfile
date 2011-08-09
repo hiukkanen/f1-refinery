@@ -61,3 +61,5 @@ gem 'rails', '3.0.9'
 gem 'mysql'
 gem 'fcgi'
 
+#engines
+gem "refinerycms-news", '~> 1.2'
